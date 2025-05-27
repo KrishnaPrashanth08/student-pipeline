@@ -19,6 +19,7 @@ Project Structure
 ├── package.json
 └── README.md
 
+
 How It Works:
 API Gateway triggers the pipeline via the api-trigger Lambda.
 The Step Functions state machine orchestrates Service1, Service2, Service3, and result validation.
