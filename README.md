@@ -3,8 +3,8 @@
 This project implements a serverless student processing pipeline using **AWS CDK**, **Lambda**, **Step Functions**, **API Gateway**, and **DynamoDB**.  
 It demonstrates conditional logic, error handling, and restore (loop-back) functionality.
 
----
 
+```
 ## Project Structure
 .
 ├── lib/
@@ -21,10 +21,8 @@ It demonstrates conditional logic, error handling, and restore (loop-back) funct
 ├── cdk.json
 ├── package.json
 └── README.md
+```
 
-undefined
-
----
 
 ---
 
