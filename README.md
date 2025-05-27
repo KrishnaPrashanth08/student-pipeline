@@ -6,9 +6,23 @@ It demonstrates conditional logic, error handling, and restore (loop-back) funct
 ---
 
 ## Project Structure
+.
+├── lib/
+│ └── aws-pipeline-stack.ts # CDK stack (main infrastructure)
+├── lambda/
+│ ├── api-trigger/ # Lambda to trigger Step Functions via API Gateway
+│ ├── service1/ # Student validation logic
+│ ├── service2/ # GPA calculation logic
+│ ├── service3/ # Certificate generation & DynamoDB write
+│ ├── result-validation/ # Restore/validation logic
+│ ├── mockapi1/ # Mock API for Service1
+│ ├── mockapi2/ # Mock API for Service2
+│ └── mockapi3/ # Mock API for Service3
+├── cdk.json
+├── package.json
+└── README.md
 
-:(https://github.com/user-attachments/assets/b4c24622-e231-423c-b940-d911e3c149e9)
-
+undefined
 
 ---
 
